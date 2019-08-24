@@ -1,0 +1,196 @@
+body {
+margin: 0;
+padding: 0;
+text-align: center;
+font-size: 10px;
+color: #FFFFFF;
+background-color: black;
+font-family:aqFont;
+justify-content: center;
+align-content: center;
+}
+@font-face {
+font-family: aqFont;
+src: url(resources/Aquatico-Regular.otf);
+}
+html, body { 
+  position:relative; 
+  text-align:center; 
+  padding: 0; 
+  margin: 0; 
+  overflow-x:hidden;
+}
+html {
+  overflow:   scroll;
+  padding:0;
+  margin:0;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+p {
+  font: aqFont;
+  text-align: center;
+}
+#navbar{
+margin-top:4vw;
+position: fixed;
+display:flex;
+justify-content:center;
+width:62vw;
+}
+#aboutmecontent{
+margin-top:9vw;
+display: 100vw;
+height:100vh;
+position: relative;
+overflow: hidden;
+width: 100vw;
+z-index: 5;
+pointer-events: none;
+display:flex;
+justify-content:center;
+}
+#aboutme{
+display: 100vw;
+height:100vh;
+position: relative;
+overflow: hidden;
+width: 100vw;
+z-index: 5;
+pointer-events: none;
+display:flex;
+justify-content:center;
+}
+#projectscontent{
+margin-top:9vw;
+display: 100vw;
+height:100vh;
+position: relative;
+overflow: hidden;
+width: 100vw;
+z-index: 5;
+pointer-events: none;
+display:flex;
+justify-content:center;
+}
+#projects{
+display: 100vw;
+height:100vh;
+position: relative;
+overflow: hidden;
+width: 100vw;
+z-index: 5;
+pointer-events: none;
+display:flex;
+justify-content:center;
+}
+#experiencecontent{
+margin-top:9vw;
+display: 100vw;
+height:100vh;
+position: relative;
+overflow: hidden;
+width: 100vw;
+z-index: 5;
+pointer-events: none;
+display:flex;
+justify-content:center;
+}
+#experience{
+display: 100vw;
+height:100vh;
+position: relative;
+overflow: hidden;
+width: 100vw;
+z-index: 5;
+pointer-events: none;
+display:flex;
+justify-content:center;
+}
+#contactcontent{
+margin-top:9vw;
+display: 100vw;
+height:100vh;
+position: relative;
+overflow: hidden;
+width: 100vw;
+z-index: 5;
+pointer-events: none;
+display:flex;
+justify-content:center;
+}
+#contact{
+display: 100vw;
+height:100vh;
+position: relative;
+overflow: hidden;
+width: 100vw;
+z-index: 5;
+pointer-events: none;
+display:flex;
+justify-content:center;
+}
+.topNaviagationLink{
+position:relative;
+font-size:16px;
+width:16.6%;
+height: 35px;
+float:left;
+color:#FFFFFF;
+font-family:aqFont;
+z-index: 10;
+pointer-events:all;
+display:flex;
+justify-content:center;
+align-items: center;
+font-size:10pt;
+}
+.topNaviagationLink a{
+position:fixed;
+text-decoration:none;
+color:#FFFFFF;
+/*pacity:0.0;*/
+z-index: 10;
+pointer-events:all;
+}
+.topNaviagationLink a:hover{
+text-align:center;
+color:#FFFFFF;
+display: block;
+border-bottom:none;
+z-index: 10;
+pointer-events:all;
+font-size: 14pt;
+}
+.topNaviagationLinkImage{
+position:relative;
+font-size:16px;
+width:16.6%;
+height: 35px;
+float:left;
+color:#FFFFFF;
+z-index: 10;
+pointer-events:all;
+display:flex;
+justify-content:center;
+align-items: center;
+}
+.topNaviagationLinkImage a{
+position:fixed;
+text-decoration:none;
+color:#FFFFFF;
+/*opacity:0.0;*/
+z-index: 10;
+pointer-events:all;
+}
+.topNaviagationLinkImage a:hover{
+text-align:center;
+color:#FFFFFF;
+display: block;
+border-bottom:none;
+z-index: 10;
+pointer-events:all;
+padding-bottom:7pt;
+}

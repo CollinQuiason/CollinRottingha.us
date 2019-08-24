@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Collin's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Collin Quiason Rottinghaus"/>
+    <meta name="description" content ="Portfolio website"/>
+    <meta name="keywords" content ="portfolio, website, software, engineer, hire, freelance, free, lance, developer, coder, full, stack, fullstack, computer, science ,collin,rottinghaus"/>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <!--<link rel="icon" href = "favicon.ico">-->
+
+    
+
+    <!-- Dependencies -->
+    <link rel="stylesheet" href="style.css?version = 0.1.15">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+    <!--<script type="text/javascript" src="sketch.js?version=0.1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.js"></script>-->
+
+    <!-- Smooth Scrolling -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+     $(document).ready(function(){
+         // Add smooth scrolling to all links
+         $("a").on('click', function(event) {
+
+             // Make sure this.hash has a value before overriding default behavior
+             if (this.hash !== "") {
+                 // Prevent default anchor click behavior
+                 event.preventDefault();
+
+                 // Store hash
+                 var hash = this.hash;
+
+                 // Using jQuery's animate() method to add smooth page scroll
+                 // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                 $('html, body').animate({
+                     scrollTop: $(hash).offset().top
+                 }, 800, function(){
+                     
+                     // Add hash (#) to URL when done scrolling (default click behavior)
+                     window.location.hash = hash;
+                 });
+             } // End if
+         });
+     });
+    </script>
+  </head>
+
+
+
+  <body>
+      <div id="aboutme">
+        <div id="navbar">
+            <div class="topNaviagationLink"><a href = "#aboutme" onclick = "return false;">About Me</a></div>
+            <div class="topNaviagationLink"><a href = "#projects" onclick = "return false;">Projects</a></div>
+            <div class="topNaviagationLink"><a href = "#experience" onclick = "return false;">Experience</a></div>
+            <div class="topNaviagationLink"><a href = "#contact" onclick = "return false;">Contact</a></div>
+        </div>
+
+      <div id="aboutmecontent">
+        <h1>About Me</h1>
+        <h2>Hi! I'm Collin Rottinghaus</h2>
+        <div id = "imageright">
+          <img src="resources/ballinrottinghaus.png" alt="Ballin Rottinghaus" style="position:absolute; top:12vh; right:3vw;">
+        </div>
+      </div>
+      </div>
+
+      <div id="projects">
+      <div id="projectscontent">
+        <h1>Projects</h1>
+      </div>
+      </div>
+
+
+      <div id="experience">
+      <div id="experiencecontent">
+        <h1>Experience</h1>
+      </div>
+      </div>
+
+
+      <div id="contact">
+      <div id="contactcontent">
+        <h1>Contact</h1>
+        <h2>CollinRottinghaus@gmail.com</h2>
+      </div>
+      </div>
+
+  </body>
+</html>
