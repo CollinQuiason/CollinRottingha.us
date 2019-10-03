@@ -1,11 +1,12 @@
 var w, h;
-
+const socket = io('localhost:80/portfolio', {secure: true});
 
 function preload(){
 
 }
 
 function setup(){
+	
 	h = window.innerHeight;
  	w = window.innerWidth;
 	cnv = createCanvas(w, h);
