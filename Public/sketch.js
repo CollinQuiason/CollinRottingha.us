@@ -1,5 +1,5 @@
 var w, h;
-const socket = io('CollinRottingha.us:80/portfolio', {secure: true});
+const socket = io('localhost:80/portfolio', {secure: true});
 
 function preload(){
 
